@@ -1,7 +1,25 @@
+html {
+    background-color: rgb(243, 217, 222);
+    border-style: groove;
+    border-color: pink;
+}
+
+body {
+    margin: 0px;
+}
+
 img {
-height: 798px;
+height: 818px;
+margin: 0px;
 }
 
 #credit {
     position: absolute;
+}
+
+.container1 {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: ;
+    align-items: center;
 }
