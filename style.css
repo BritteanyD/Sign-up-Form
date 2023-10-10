@@ -1,25 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
 html {
-    background-color: rgb(243, 217, 222);
-    border-style: groove;
-    border-color: pink;
+    background-color: rgb(241, 237, 231);
+    border: 2px;
+    border-style: solid;
+    border-color: #e8ccda;
 }
 
 body {
     margin: 0px;
+    font-family: 'Tinos', serif;
 }
 
 img {
-height: 818px;
-margin: 0px;
+    background-size: auto;
+    width: 40vw;
 }
 
 #credit {
+    display: flex;
     position: absolute;
+    top: 0;
 }
 
-.container1 {
-    display: inline-block;
-    flex-direction: column;
-    justify-content: ;
+.content {
+    background-color: rgb(241, 237, 231);
+    padding: 20px;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: #e8ccda;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
     align-items: center;
+}
+
+button {
+    background-color: #e8ccda;
+    border-radius: 100px;
+    box-shadow: rgba(187, 44, 120, 0.2) 0 -25px 18px -14px inset, rgba(187, 44, 146, 0.15) 0 1px 2px, rgba(187, 44, 165, 0.15) 0 2px 4px, rgba(187, 44, 170, 0.15) 0 4px 8px, rgba(187, 44, 161, 0.15) 0 8px 16px, rgba(187, 44, 161, 0.15) 0 16px 32px;
+    color: rgb(128, 0, 73);
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: rgba(171, 60, 119, 0.2) 0 -25px 18px -14px inset, rgba(187, 44, 146, 0.15) 0 1px 2px, rgba(187, 44, 165, 0.15) 0 2px 4px, rgba(187, 44, 170, 0.15) 0 4px 8px, rgba(187, 44, 161, 0.15) 0 8px 16px, rgba(187, 44, 161, 0.15) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
 }
