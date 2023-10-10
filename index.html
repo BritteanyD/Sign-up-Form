@@ -15,12 +15,34 @@
             alt="two hands in white gloves holding a pink candle">
         <div class="content">
             <div id="writing1">
-                <h1>Our candle scents are amazing and so are our deals! You don't want to miss out! Sign up <em>now</em> to start saving!</h1>
+                <h1>Our candle scents are amazing and so are our deals! You don't want to miss out! Sign up <em>now</em>
+                    to start saving!</h1>
             </div>
             <div>
                 <h1>I mean how can you resist!</h1>
             </div>
-            <div>FORM GOES HERE</div>
+            <div>
+                <fieldset>
+                    <form action="example.com/path" method="post">
+                        <label for="first_name">First Name:</label>
+                        <input type="text" id="first_name" placeholder="John" name="first_name">
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" id="last_name" placeholder="Harrison" name="last_name">
+                    </fieldset>
+                <fieldset>
+                    <label for="user_email">Email Address:</label>
+                    <input type="email" id="user_email" name="email" placeholder="JohnH@example.com">
+                    <label for="phone_number">Phone Number:</label>
+                    <input type="tel" id="phone_number" name="phone_number" placeholder="000-000-0000">
+                </fieldset>
+                <fieldset>
+                    <label for="user_password">Password:</label>
+                    <input type="password" id="user_password" name="password">
+                    <label for="confirm_password">Password:</label>
+                    <input type="password" id="confirm_password" name="password">
+                </fieldset>
+                </form>
+            </div>
             <button>Create Account</button>
             <div>Already have an account? Sign in</div>
         </div>
