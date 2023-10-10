@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-html {
-    border: 2px;
-    border-style: solid;
-    border-color: #e8ccda;
-}
 
 body {
     margin: 0px;
-    font-family: 'Tinos', serif;
+    font-family: 'Playfair Display', serif;
 }
 
 img {
@@ -23,19 +18,15 @@ img {
 }
 
 .content {
-    background-color: rgba(230, 227, 221, 0.464);
+    background-color: #f085a1b7;
     padding: 20px;
-    border-top: 2px;
-    border-bottom: 2px;
-    border-style: solid;
-    border-color: #e8ccda;
 }
 
 h1 {
     text-align: center;
     margin: 30px;
-    color: #fff;
-    text-shadow: 1px 1px 2px black, 0 0 25px rgb(236, 190, 211), 0 0 5px rgb(139, 0, 107);
+    color: black;
+    text-shadow: 1px 1px 2px rgb(226, 220, 220);
 }
 
 .container {
@@ -44,19 +35,21 @@ h1 {
 }
 
 button {
-    background-color: #e8ccda;
-    border-radius: 100px;
-    box-shadow: rgba(187, 44, 120, 0.2) 0 -25px 18px -14px inset, rgba(187, 44, 146, 0.15) 0 1px 2px, rgba(187, 44, 165, 0.15) 0 2px 4px, rgba(187, 44, 170, 0.15) 0 4px 8px, rgba(187, 44, 161, 0.15) 0 8px 16px, rgba(187, 44, 161, 0.15) 0 16px 32px;
-    color: rgb(128, 0, 73);
-    display: inline-block;
-    padding: 7px 20px;
-    text-align: center;
-    text-decoration: none;
-    border: 0;
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: #e8ccda;
+    color: #181616;
+    display: inline-flex;
+    font-family: 'Playfair Display', serif;
     font-size: 16px;
-    touch-action: manipulation;
-    box-shadow: 1px 1px 2px black, 0 0 25px rgb(236, 190, 211), 0 0 5px rgb(139, 0, 107);
-    transform: scale(1.05) rotate(-1deg);
+    font-weight: 580;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    width: auto;
     margin: 30px;
 }
 
@@ -67,5 +60,8 @@ form {
     gap: 2rem;
     font-size: larger;
     background-color: white;
-    box-shadow: 10px 5px 5px rgb(156, 151, 151);
+    border: 2px;
+    border-style: solid;
+    border-color: #e8ccda;
+
 }
